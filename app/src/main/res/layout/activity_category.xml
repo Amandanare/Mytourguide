@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingRight="64dp"
+    android:paddingLeft="64dp"
+    android:paddingTop="16dp"
+    android:orientation="horizontal"
+    android:background="@drawable/pretoria"
+    tools:context="com.example.admin.mytourguide.categoryActivity">
+
+    <Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:onClick="GoToHotels"
+    android:text="Hotels"
+    android:id="@+id/hotels"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="Go to game reserves"
+        android:text="Game reserves"
+        android:id="@+id/gameReserves"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="Go to Union Buildings"
+        android:text="Union Buildings"
+        android:id="@+id/UnionBuildings"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="Go to shopping malls"
+        android:text="Shopping malls"
+        android:id="@+id/shoppingMalls"/>
+
+
+</LinearLayout>
